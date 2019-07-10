@@ -66,3 +66,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Production Site
+```http
+https://ancient-gorge-85764.herokuapp.com/
+https://git.heroku.com/ancient-gorge-85764.git
+```
