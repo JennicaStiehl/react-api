@@ -3,7 +3,7 @@ import Foods from './components/foods';
 
 const FoodContainer = (props) => {
   return(
-    <div>
+    <div class="container">
     <Foods foods={props.foods}/>
     </div>
   );

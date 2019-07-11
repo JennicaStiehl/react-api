@@ -4,13 +4,15 @@ import Card from './mealCard.js'
 const Meals = ({meals}) => {
   // console.log('props in meals',props)
   const displayMeals = meals.map( meal => <Card key={meal.id} {...meal}/>)
+
     return(
 
       <div>
-      {displayMeals}
+        {displayMeals}
       </div>
 
-  )
-}
+    )
+  }
+
 
 export default Meals;

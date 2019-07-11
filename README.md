@@ -25,3 +25,17 @@ Builds the app for production to the `build` folder.<br>
 ## Tech Stack List
 
 [React](https://github.com/facebook/create-react-app).
+
+This section has moved here: 
+
+### Production Site
+```http
+https://ancient-gorge-85764.herokuapp.com/
+https://git.heroku.com/ancient-gorge-85764.git
+```
+### Resources
+[Minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Grid](https://react-bootstrap.github.io/layout/grid/)
+[Example Grid](https://mdbootstrap.com/docs/react/layout/grid-examples/)
+[Bootstrap Docs](https://getbootstrap.com/docs/4.3/components/card/)
+[Images](https://www.pexels.com/search/food/)
