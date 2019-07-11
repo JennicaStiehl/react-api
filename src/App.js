@@ -34,7 +34,7 @@ class App extends Component {
     const { foods } = this.state;
     return (
       <div className="App">
-      <h1>Meal Tracker!</h1>
+      <h1>Meals!</h1>
       <MealContainer meals={meals} />
       <FoodContainer foods={foods} />
       </div>
