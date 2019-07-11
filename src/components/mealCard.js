@@ -5,10 +5,8 @@ const Card = ({name ,id, foods}) => {
   const displayFoods = foods.map(food =>
     <p>{food.name}: {food.calories}</p>)
   return (
-    <MDBContainer>
-    <MDBRow>
-    <MDBCol lg={true} >
-    <MDBCard style={{ width: "22rem" }}>
+    <MDBContainer className='meal-container'>
+    <MDBCard style={{ width: "20rem" }}>
       <MDBCardImage className="img-fluid" src="https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" waves />
         <MDBCardBody>
           <MDBCardTitle>{name}</MDBCardTitle>
@@ -17,8 +15,6 @@ const Card = ({name ,id, foods}) => {
               </MDBCardText>
             </MDBCardBody>
           </MDBCard>
-        </MDBCol>
-        </MDBRow>
     </MDBContainer>
   )
 }

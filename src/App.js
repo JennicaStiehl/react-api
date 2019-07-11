@@ -36,7 +36,6 @@ class App extends Component {
       <div className="App">
       <h1>Meals!</h1>
       <MealContainer meals={meals} />
-      <FoodContainer foods={foods} />
       </div>
 
     );

@@ -1,10 +1,16 @@
 import React from 'react';
 import Meals from './components/meals';
+import { MDBContainer, MDBCol, MDBRow } from 'mdbreact';
+
 
 const MealContainer = (props) => {
   return(
     <div>
-    <Meals meals={props.meals}/>
+      <MDBContainer class="meal-container">
+
+                <Meals meals={props.meals}/>
+
+      </MDBContainer>
     </div>
   );
 }
